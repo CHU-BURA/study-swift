@@ -1,4 +1,11 @@
+.DS_Store
+*.swp
+
 # Xcode
+## Other
+*.xccheckout
+*.xcscmblueprint
+
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
 
@@ -16,11 +23,13 @@ DerivedData/
 *.perspectivev3
 !default.perspectivev3
 xcuserdata/
+project.xcworkspace/
 
 ## Other
 *.moved-aside
 *.xccheckout
 *.xcscmblueprint
+*.xcuserstate
 
 ## Obj-C/Swift specific
 *.hmap
